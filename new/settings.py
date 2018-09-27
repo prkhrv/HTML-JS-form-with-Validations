@@ -119,8 +119,8 @@ USE_TZ = True
 #emailsettings
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'codenova486@gmail.com'
-EMAIL_HOST_PASSWORD = 'nova_rise'
+EMAIL_HOST_USER = 'Your_Email'
+EMAIL_HOST_PASSWORD = 'Your_Password'
 EMAIL_USE_TLS = True
 
 

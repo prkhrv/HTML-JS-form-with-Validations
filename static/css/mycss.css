@@ -65,4 +65,25 @@ body{
 .btn:hover{
 	cursor: pointer;
 	background:linear-gradient(345deg, #2aef56,#19cbfb);
+	animation: anim .4s cubic-bezier(1,1,0,0);
+}
+
+
+@keyframes anim{
+	0%{
+		width: 100px;
+	}
+	25%{
+		width: 80px;
+		filter: blur(2px);
+	}
+	50%{
+		width: 70px;
+		padding: 10px;
+		filter: blur(4px);
+	}
+	75%{
+		width: 100px;
+		filter: blur(2px);
+	}
 }
